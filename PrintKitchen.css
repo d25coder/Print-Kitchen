@@ -118,13 +118,13 @@ body {
 }
 
 .card img {
-    width: 50px;
+    width: 90px;
 }
 
 .card:hover {
     transform: translateY(-5px);
 }
-form-container {
+/* form-container {
   max-width: 400px;
   margin: 50px auto;
   padding: 2rem;
@@ -152,7 +152,7 @@ input {
   border-radius: 8px;
   outline: none;
   transition: border-color 0.3s ease;
-}
+} */
 
 /* Interaction: Change border color on focus */
 input:focus {
@@ -160,8 +160,8 @@ input:focus {
 }
 
 button {
-  width: 100%;
-  padding: 12px;
+  width: 50%;
+  padding: 6px;
   background-color: #4A90E2;
   color: white;
   border: none;
