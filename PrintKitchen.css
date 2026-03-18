@@ -118,7 +118,8 @@ body {
 }
 
 .card img {
-    width: 90px;
+    width: 100px;
+    height: -50px;
 }
 
 .card:hover {
@@ -160,7 +161,7 @@ input:focus {
 }
 
 button {
-  width: 50%;
+  width: 30%;
   padding: 6px;
   background-color: #4A90E2;
   color: white;
