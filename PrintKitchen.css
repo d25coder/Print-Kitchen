@@ -208,6 +208,9 @@ button:hover {
     padding: 30px 0;
     margin-top: 50px;
 }
+.text {
+    color: yellow;
+}
 
 /* 7. MEDIA QUERIES (The Responsive Magic) */
 
