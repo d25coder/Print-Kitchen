@@ -1,7 +1,7 @@
 :root {
     --primary-color: #2b445e;    /* Navbar & Footer */
-    --accent-color: #cf5b4e;     /* Buttons & Highlights */
-    --bg-light: #b8cc45;         /* Page Background */
+    --accent-color: #b3382b;     /* Buttons & Highlights */
+    --bg-light: #dcec82;         /* Page Background */
     --card-bg: #ffffff;          /* Card Background */
     --text-main: #333333;        /* General Text */
     --text-light: #ffffff;       /* Text on Dark Backgrounds */
@@ -47,7 +47,7 @@ body {
 .nav-links li { margin-left: 20px; }
 
 .nav-links a {
-    color: #9baf2c;
+    color: yellow;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -92,9 +92,22 @@ body {
     transform: scale(1.05);
 }
 
+.shadow-text {
+    text-shadow: 2px 2px 4px rgba(250, 4, 4, 0.3); 
+}
+
+.bordered-box {
+    border: 2px solid var(--accent-color);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
 /* 5. Main Layout & Cards */
 .container {
-    flex: 1;
+    display: flex;
+    flex: 3;
     width: 90%;
     max-width: var(--container-width);
     margin: 0 auto;
@@ -103,9 +116,9 @@ body {
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
-    gap: 30px;
-    margin-top: -50px; /* Overlap effect */
+    grid-template-columns: repeat(2, 1fr); /* 3 columns on desktop */
+    gap: 50px;
+    margin-top: 10px; /* Overlap effect */
 }
 
 .card {
@@ -125,6 +138,12 @@ body {
 .card:hover {
     transform: translateY(-5px);
 }
+/* About Us */
+.inset {border-style: inset;
+    padding: 30px;
+    background-color: #ffffff;
+    border-color: #df9f98;
+} 
 /* form-container {
   max-width: 400px;
   margin: 50px auto;
