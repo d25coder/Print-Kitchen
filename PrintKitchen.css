@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #5885b3;    /* Navbar & Footer */
+    --primary-color: #2b445e;    /* Navbar & Footer */
     --accent-color: #cf5b4e;     /* Buttons & Highlights */
-    --bg-light: #f4f7f6;         /* Page Background */
+    --bg-light: #b8cc45;         /* Page Background */
     --card-bg: #ffffff;          /* Card Background */
     --text-main: #333333;        /* General Text */
     --text-light: #ffffff;       /* Text on Dark Backgrounds */
@@ -47,7 +47,7 @@ body {
 .nav-links li { margin-left: 20px; }
 
 .nav-links a {
-    color: #bdc3c7;
+    color: #9baf2c;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -65,7 +65,7 @@ body {
     background-position: center;
     height: 60vh;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     text-align: center;
     color: var(--text-light);
@@ -112,7 +112,7 @@ body {
     background: var(--card-bg);
     padding: 40px 25px;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 30px rgba(214, 151, 151, 0.08);
     text-align: center;
     transition: translateY 0.3s ease;
 }
@@ -157,14 +157,14 @@ input {
 
 /* Interaction: Change border color on focus */
 input:focus {
-  border-color: #4A90E2;
+  border-color: #e2684a;
 }
 
 button {
   width: 30%;
   padding: 6px;
   background-color: #4A90E2;
-  color: white;
+  color: rgb(43, 40, 12);
   border: none;
   border-radius: 8px;
   font-weight: bold;
@@ -173,7 +173,7 @@ button {
 }
 
 button:hover {
-  background-color: #357ABD;
+  background-color: #da1313;
 }
 .social-media {
     display: flex;
