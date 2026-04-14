@@ -1,1 +1,1 @@
-Print Kitchen is a web page that consists of folders that are connected and displayed on the web browser using classes, referance links, and navigation bars. Each folder contains a home button that navigates to the home page, a header and a footer.
+Print Kitchen is a web page that consists of folders that are connected and displayed on the web browser using classes, referance links, and navigation bars. Each folder contains a home button that navigates to the home page, a header and a footer. 
