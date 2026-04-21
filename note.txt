@@ -1,0 +1,60 @@
+<main>
+        <section class="card-grid">
+            <div class="card">
+                <img src="images/jewelry.jpg" alt="Product 1">
+                <h3>Custom Jewelry</h3>
+                <p>Contact For Pricing</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <button class="cta-button">Quick View</button>
+            </div>
+            <div class="card">
+                <img src="images/organization.jpg" alt="Product 2">
+                <h3>Custom Organization Paraphernalia</h3>
+                <p>Contact For Pricing</p>
+                <p>⭐⭐⭐⭐</p>
+                <button class="cta-button">Quick View</button>
+            </div>
+            <div class="card">
+                <img src="images/award.jpg" alt="Product 3">
+                <h3>Custom Award</h3>
+                <p>Contact For Pricing</p>
+                <p>⭐⭐⭐⭐</p>
+                <button class="cta-button">Quick View</button>
+            </div>
+            <div class="card">
+                <img src="images/3Dlight.jpg" alt="Product 4">
+                <h3>Custom 3D Light</h3>
+                <p>Contact For Pricing</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <button class="cta-button">Quick View</button>
+            </div>
+            <div class="card">
+                <img src="images/coaster.jpg" alt="Product 5">
+                <h3>Custom Coaster</h3>
+                <p>Contact For Pricing</p>
+                <p>⭐⭐⭐</p>
+                <button class="cta-button">Quick View</button>
+            </div>
+            <div class="card">
+                <img src="images/plaque.jpg" alt="Product 6">
+                <h3>Custom Plaque</h3>
+                <p>Contact For Pricing</p>
+                <p>⭐⭐⭐⭐</p>
+                <button class="cta-button">Quick View</button>
+            </div>
+            <div class="card">
+                <img src="images/toy.jpg" alt="Product 7">
+                <h3>Custom Toy</h3>
+                <p>Contact For Pricing</p>
+                <p>⭐⭐⭐⭐</p>
+                <button class="cta-button">Quick View</button>
+            </div>
+            <div class="card">
+                <img src="images/vase.jpg" alt="Product 8">
+                <h3>Custom Vase</h3>
+                <p>Contact For Pricing</p>
+                <p>⭐⭐⭐⭐</p>
+                <button class="cta-button">Quick View</button>
+            </div> 
+        </section>
+        </main>
