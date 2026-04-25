@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2b445e;    /* Navbar & Footer */
+    --primary-color: #597ea7;    /* Navbar & Footer */
     --accent-color: #b3382b;     /* Buttons & Highlights */
     --bg-light: #dcec82;         /* Page Background */
     --card-bg: #ffffff;          /* Card Background */
@@ -36,7 +36,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(29, 104, 134, 0.1); 
 }
 
 .nav-links {
@@ -127,7 +127,7 @@ body {
     padding: 40px 25px;
     width: 600px;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(214, 151, 151, 0.08);
+    box-shadow: 0 10px 30px rgba(24, 115, 151, 0.08); 
     text-align: center;
     transition: translateY 0.3s ease;
 }
