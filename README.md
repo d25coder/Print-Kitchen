@@ -1,13 +1,51 @@
-Did you use bootsrtap or tailwind?
+# Print Kitchen
 
-Why did you choiose this framework for this specific business?
+A responsive e-commerce website for Print Kitchen, built with HTML5, CSS3, and Bootstrap.
 
-Identifiy one section of your code that you are most proud of. 
-    I'm most proud of linking the facebook page inside of the footer
-List 3-4 specific classes you used in this section and explain exactly what they do for the layout.
+## Project Overview
 
-What was the hardest part about making your store look good on a mobile phone versus a desktop? How did you solve it using your framework?
+Print Kitchen is a web-based platform featuring a home page, product showcase, about us section, and contact page. The site is designed to be responsive across desktop and mobile devices using Bootstrap for consistent alignment and layout management.
 
-Why did you choose a specific HTML5 semantic tag (article, section,) for a part of your site instead of using div?
-    the 
-Print Kitchen is a web page that consists of folders that are connected and displayed on the web browser using classes, referance links, and navigation bars. Each folder contains a home button that navigates to the home page, a header and a footer. 
+## Features
+
+- **Responsive Design**: Built with Bootstrap for seamless viewing on desktop and mobile devices
+- **Navigation**: Consistent navigation bars across all pages with easy access to home, products, about us, and contact sections
+- **Multiple Pages**: 
+  - Home page (index.html)
+  - Products page (products.html)
+  - About Us page (aboutus.html)
+  - Contact page (contact.html)
+- **Consistent Layout**: All pages include header and footer sections
+- **Social Media Integration**: Links to social media platforms (Facebook) in the footer
+
+## Technologies Used
+
+- **HTML5**: Semantic markup and structure
+- **CSS3**: Custom styling (PrintKitchen.css)
+- **Bootstrap**: Responsive layout framework
+- **Images**: Product and branding images in the `images/` folder
+
+## File Structure
+
+```
+├── index.html          # Home page
+├── products.html       # Products showcase
+├── aboutus.html        # About Us section
+├── contact.html        # Contact page
+├── PrintKitchen.css    # Custom styling
+├── images/             # Image assets
+├── README.md           # Project documentation
+└── note.txt            # Additional notes
+```
+
+## How to Use
+
+1. Open `index.html` in your web browser to view the home page
+2. Use the navigation menu to browse between different sections
+3. All pages are linked and accessible through the navigation bars
+
+## Design Notes
+
+- Bootstrap framework is used to ensure proper alignment and responsive behavior
+- Each page maintains consistent header and footer elements for brand consistency
+- The layout adapts automatically for mobile and desktop viewing 
