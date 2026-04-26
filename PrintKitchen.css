@@ -96,10 +96,13 @@ body {
     text-shadow: 2px 2px 4px rgba(250, 4, 4, 0.3); 
 }
 
+/* home page boxes */
 .bordered-box {
     border: 2px solid var(--accent-color);
     padding: 20px;
     border-radius: 12px;
+    width: 80%; 
+    text-align: center;
     margin-bottom: 30px;
     background-color: #ffffff;
 }
@@ -148,6 +151,7 @@ body {
     background-color: #ffffff;
     border-color: #df9f98;
 } 
+
 form-container {
   max-width: 100px;
   margin: 50px auto;
@@ -155,7 +159,8 @@ form-container {
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}  
+}   
+
 /* about Us center text*/
 h2 { margin-bottom: 1.5rem; color: #333; text-align: center; }
 
@@ -169,6 +174,7 @@ label {
   font-weight: 600;
 }
 
+/* contact description box  */ 
 textarea {
     width: 100%;
     padding: 12px;
