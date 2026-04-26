@@ -118,9 +118,8 @@ body {
 }
 
 .card-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 50px;
     margin-top: 10px; /* Overlap effect */
 }
@@ -128,7 +127,7 @@ body {
 .card {
     background: var(--card-bg);
     padding: 40px 25px;
-    width: 600px;
+    width: 100%;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(24, 115, 151, 0.08); 
     text-align: center;
