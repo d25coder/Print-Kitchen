@@ -148,15 +148,15 @@ body {
     background-color: #ffffff;
     border-color: #df9f98;
 } 
-/* form-container {
-  max-width: 400px;
+form-container {
+  max-width: 100px;
   margin: 50px auto;
   padding: 2rem;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}  */
-
+}  
+/* about Us center text*/
 h2 { margin-bottom: 1.5rem; color: #333; text-align: center; }
 
 .group { margin-bottom: 1.2rem; }
@@ -169,6 +169,15 @@ label {
   font-weight: 600;
 }
 
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e1e1e1;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease; 
+}
+
 input {
   width: 100%;
   padding: 12px;
@@ -176,7 +185,7 @@ input {
   border-radius: 8px;
   outline: none;
   transition: border-color 0.3s ease;
-} */
+} 
 
 /* Interaction: Change border color on focus */
 input:focus {
