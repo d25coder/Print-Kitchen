@@ -118,8 +118,8 @@ body {
 }
 
 .card-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     margin-top: 10px; /* Overlap effect */
 }
@@ -151,7 +151,7 @@ body {
     border-color: #df9f98;
 } 
 
-form-container {
+.form-container {
   max-width: 100px;
   margin: 50px auto;
   padding: 2rem;
@@ -200,7 +200,7 @@ input:focus {
 button {
   width: 30%;
   padding: 6px;
-  background-color: #4A90E2;
+  background-color: #779ac2;
   color: rgb(43, 40, 12);
   border: none;
   border-radius: 8px;
@@ -212,6 +212,22 @@ button {
 button:hover {
   background-color: #da1313;
 }
+
+.newsletter {
+    text-align: center;
+    margin-top: 50px; 
+} 
+
+/* Newsletter form spacing */
+footer form input[type="email"] {
+  margin-right: 30px;
+}
+
+/* Alternative: Add margin to button instead */
+footer form button {
+  margin-left: 30px; 
+}
+
 .social-media {
     display: flex;
     justify-content: center;
